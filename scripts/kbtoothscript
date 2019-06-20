@@ -1,0 +1,2 @@
+pkill blueman-applet
+sudo systemctl stop bluetooth.service
