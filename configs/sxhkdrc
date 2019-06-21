@@ -120,7 +120,7 @@ super + ctrl + shift + {a,s,w,d}
 
 # mute
 XF86AudioMute
-	pactl set-sink-mute 0 toggle
+	bash ~/.mute.sh 
 
 # brightness controls
 {XF86MonBrightnessDown,XF86MonBrightnessUp}
