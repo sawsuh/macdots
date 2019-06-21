@@ -43,8 +43,8 @@ super + shift + f
 	bash ~/.files.sh
 
 # start music player 
-super + shift + m
-	bash ~/.music.sh
+#super + shift + m
+#	bash ~/.music.sh
 
 # set the window state
 super + {t,shift + t,x,f}
@@ -115,15 +115,18 @@ super + ctrl + shift + {a,s,w,d}
 	bspc node --to-node {west,south,north,east}
 
 # volume control
-super + {m,n} 
+{XF86AudioRaiseVolume,XF86AudioLowerVolume} 
 	pactl -- set-sink-volume 0 {+3%,-3%}
 # &&  dunstify "volume: $((pactl list sinks | grep '^[[:space:]]Volume:' | head -n $(( $SINK + 2 )) | tail -n 1 | sed -e 's,.* \([0-9][0-9]*\)%.*,\1,'))" -r 1
 
 # mute
-super + shift + n
+XF86AudioMute
 	pactl set-sink-mute 0 toggle
 
 # brightness controls
-super + {shift +,_} b
+{XF86MonBrightnessDown,XF86MonBrightnessUp}
 	xbacklight {-dec, -inc} 10
 
+# keyboard backlight
+{XF86KbdBrightnessUp,XF86KbdBrightnessDown}
+	bash ~/.backlight.sh {up,down}
