@@ -1,6 +1,6 @@
 [Unit]
 Description=Set brightness value from saved value on resume
-After=sleep.target
+After=suspend.target
 
 [Service]
 Type=simple
