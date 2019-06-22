@@ -3,7 +3,7 @@ Description=Powertop tunings
 
 [Service]
 Type=oneshot
-ExecStart=/usr/bin/powertop --auto-tune
+ExecStart=/bin/sh /usr/bin/powerscript.sh
 RemainAfterExit=true
 
 [Install]
