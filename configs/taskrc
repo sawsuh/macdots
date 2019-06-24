@@ -28,5 +28,5 @@ include /usr/share/doc/task/rc/dark-16.theme
 #include /usr/share/doc/task/rc/solarized-dark-256.theme
 #include /usr/share/doc/task/rc/solarized-light-256.theme
 #include /usr/share/doc/task/rc/no-color.theme
-report.next.columns=depends,priority,project,tags,recur,scheduled.countdown,due.relative,until.remaining,description
-report.next.labels=Deps,P,Project,Tag,Recur,S,Due,Until,Description
+report.next.columns=depends.indicator,priority,project,tags,recur,scheduled.countdown,due.relative,until.remaining,description
+report.next.labels=deps,P,project,Tag,Recur,Scheduled,Due,Until,Description
