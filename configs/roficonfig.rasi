@@ -1,0 +1,4 @@
+configuration {
+	lines: 1;
+	terminal: "Termite --name=float";	
+}

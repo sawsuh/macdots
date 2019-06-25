@@ -11,7 +11,8 @@ super + shift + z
 
 # program launcher
 super + @space
-        urxvt -name stick -g 90x1 -e bash -c 'LAUNCHER=true /bin/zsh -i -t'
+	rofi -theme rofi-theme -show run -display-run ""
+#        urxvt -name stick -g 90x1 -e bash -c 'LAUNCHER=true /bin/zsh -i -t'
 
 
 # make sxhkd reload its configuration files:
