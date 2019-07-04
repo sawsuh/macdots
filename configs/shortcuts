@@ -9,6 +9,7 @@ nit: nitrogen
 dis: discord
 study: urxvt -name stick -geometry 20x1+1584+147 --hold -e zsh -c "setterm -cursor off && python3 .pomodoro.py"
 home: cd ~
+nmgui: bash ~/.nmgui.sh
 --FilestoVim
 xr: ~/.Xresources
 sxrc: ~/.config/sxhkd/sxhkdrc

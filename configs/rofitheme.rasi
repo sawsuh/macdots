@@ -32,6 +32,7 @@
     padding:    50px;
     border-color:                #42423d;
     font: "Fira Code 10";
+    fullscreen: "True";
 }
 #mainbox {
     border:  0;
@@ -48,6 +49,8 @@
     padding:      0px 0px 0px ;
     font: "Fira Code 10";
     text-color: @foreground;
+    dynamic: "True";
+    lines: 1;
 }
 #element {
     border: 0;
