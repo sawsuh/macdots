@@ -29,6 +29,7 @@ bspc rule -a URxvt:cal state=floating sticky=on
 bspc rule -a Steam:"Friends List" state=floating
 bspc rule -a polybar layer=above
 bspc rule -a "dotnet" state=floating
+bspc rule -a "nm-connection-editor" state=floating
 
 redshift -l -35.3:149&
 xsetroot -cursor_name left_ptr&
